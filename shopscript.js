@@ -21,6 +21,7 @@ function renderCart() {
     document.querySelector("#cartview ul").innerHTML = listHTML
     let totalPrice = 0
     cart.map()
+}
 
 function toggleCart() {
     document.querySelector("#cartview").classList.toggle("hidden")
